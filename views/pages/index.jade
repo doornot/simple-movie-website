@@ -1,0 +1,12 @@
+extend ../layout
+
+block content
+	.page.index-page
+		ul.list
+			each item in movies
+				li.item
+					a(href="/movie/#{item._id}")
+						img(src="#{item.poster}", alt="#{item.name}")
+					.info
+						h4 #{item.name}
+						p: a.btn(href="/movie/#{item._id}") 观看预告片

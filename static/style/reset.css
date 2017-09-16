@@ -1,0 +1,33 @@
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,
+a,em,img,strong,sub,sup,i,dl,dt,dd,ol,ul,li,fieldset,
+form,label,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Microsoft yahei", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff;
+}
+ol,ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption,th,td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+a{
+  text-decoration:none;
+}
+a img {
+    border: none;
+}
+article,aside,footer,header,menu,nav,section,summary {
+    display: block;
+}

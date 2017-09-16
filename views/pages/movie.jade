@@ -1,0 +1,33 @@
+extend ../layout
+
+block content
+  .page.admin-new-page
+    form.form(method="post", action="/admin/movie/new")
+      input(type="hidden", name="id", value="#{movie._id}")
+      .item
+        label 电影名字
+        input(type="text", name="name", value="#{movie.name}")
+      .item
+        label 电影导演
+        input(type="text", name="director", value="#{movie.director}")
+      .item
+        label 国家
+        input(type="text", name="country", value="#{movie.country}")
+      .item
+        label 语种
+        input(type="text", name="language", value="#{movie.language}")
+      .item
+        label 海报地址
+        input(type="text", name="poster", value="#{movie.poster}")
+      .item
+        label 片源地址
+        input(type="text", name="video", value="#{movie.video}")
+      .item
+        label 上映年份
+        input(type="text", name="year", value="#{movie.year}")
+      .item
+        label 电影简介
+        input(type="text", name="introduce", value="#{movie.introduce}")
+      .item
+        button.submit-btn(type="submit") 录入
+        

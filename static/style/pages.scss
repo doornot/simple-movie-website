@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+// 首页
+.index-page {
+  .list {
+    width: 100%;
+  }
+  .item {
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: center;
+    a {
+      display: block;
+    }
+    img {
+      width: 160px;
+      height: 240px;
+    }
+  }
+}
+
+// 电影详情页
+.detail-page {
+  .video, .info {
+    float: left;
+  }
+  .info {
+    width: 300px;
+    margin-left:30px;
+    td {
+      padding-bottom: 10px;
+    }
+    .title {
+      width: 50px;
+      text-align: left;
+      display: inline-block;
+    }
+  }
+}
+
+// 后台录入页
+.admin-new-page {
+  .form {
+    text-align: center;
+  }
+  .item{
+    margin-bottom: 15px;
+    label {
+      width: 70px;
+      text-align: right;
+      padding-right: 15px;
+      display: inline-block;
+    }
+    input {
+      width: 500px;
+      height: 36px;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+      padding-left: 8px;
+    }
+    .submit-btn {
+      width: 100px;
+      height: 36px;
+      background: transparent;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+}
+
+// 后台列表页
+.admin-list-page {
+  table {
+    width: 100%;
+    border-collapse:collapse;
+    border: 1px solid #aaa;
+    td,th {
+      padding: 8px 0;
+      text-align: center;
+      border: 1px solid #aaa;
+    }
+    .delete-btn {
+      width: 60px;
+      height: 32px;
+      line-height: 32px;
+      display: inline-block;
+      background: #d9534f;
+      border: 0;
+      border-radius: 3px;
+      color: #fff;
+    }
+  }
+}

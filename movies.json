@@ -1,0 +1,51 @@
+{ 
+    "_id" : ObjectId("59b8eb84821a6108096f034f"), 
+    "name" : "战狼2", 
+    "director" : "吴京", 
+    "language" : "中文", 
+    "country" : "China", 
+    "year" : NumberInt(2017), 
+    "poster" : "/images/zhanlang.jpg", 
+    "video" : "<embed src='http://player.youku.com/player.php/sid/XMjc3MTIyNjExNg==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>", 
+    "introduce" : "战狼Ⅱ 是吴京执导的动作军事电影，由吴京、弗兰克·格里罗、吴刚、张翰、卢靖姗、淳于珊珊、丁海峰等主演。该片于2017年7月27日在中国内地上映。影片讲述了脱下军装的冷锋被卷入了一场非洲国家的叛乱，本来能够安全撤离的他无法忘记军人的职责，重回战场展开救援的故事。", 
+    "removed" : false, 
+    "meta" : {
+        "updateAt" : ISODate("2017-09-13T09:33:38.423+0000"), 
+        "createAt" : ISODate("2017-09-13T08:25:40.346+0000")
+    }, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("59b8ee6e3a1a31085616176d"), 
+    "name" : "Titanic", 
+    "director" : "James Cameron", 
+    "language" : "English", 
+    "country" : "USA", 
+    "year" : NumberInt(1995), 
+    "poster" : "/images/titanic.jpg", 
+    "video" : "<embed src='http://player.youku.com/player.php/sid/XMjA5MjQyNDA0/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>", 
+    "introduce" : "泰坦尼克号 是美国二十世纪福斯电影公司、派拉蒙影业公司出品爱情片，由詹姆斯·卡梅隆执导，莱昂纳多·迪卡普里奥、凯特·温斯莱特领衔主演。影片以1912年泰坦尼克号邮轮在其处女启航时触礁冰山而沉没的事件为背景，讲述了处于不同阶层的两个人穷画家杰克和贵族女露丝抛弃世俗的偏见坠入爱河，最终杰克把生命的机会让给了露丝的感人故事。", 
+    "removed" : false, 
+    "meta" : {
+        "updateAt" : ISODate("2017-09-13T09:17:34.335+0000"), 
+        "createAt" : ISODate("2017-09-13T08:38:06.259+0000")
+    }, 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("59bbd1c207e8322d8803c632"), 
+    "name" : "让子弹飞", 
+    "director" : "姜文", 
+    "language" : "Chinese", 
+    "country" : "中国", 
+    "year" : NumberInt(2010), 
+    "poster" : "/images/rangzidanfei.jpg", 
+    "video" : "<embed src='http://player.youku.com/player.php/sid/XMjMwMTc3ODg4/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>", 
+    "introduce" : "该片讲述了北洋年间，南部中国。一场惊天动地的的火车劫案之后，号令山林的绿林悍匪张牧之，遭遇行走江湖的通天大骗老汤，两人从生死宿敌变成莫逆之交，然而真正的决战才刚刚开始，南国一霸黄四郎虎视眈眈镇守鹅城，一场场情杀命案连环上演，华南三王各自为阵，鹅城双艳粉墨登场，乱世枭雄的混战一触即发。", 
+    "meta" : {
+        "updateAt" : ISODate("2017-09-15T13:13:50.137+0000"), 
+        "createAt" : ISODate("2017-09-15T13:12:34.299+0000")
+    }, 
+    "removed" : false, 
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,25 @@
+extend ../layout
+
+block content
+  .page.detail-page.clearfix
+    if data
+      .video !{data.video}
+      table.info
+        tr
+          td.title 名字
+          td #{data.name}
+        tr
+          td.title 导演
+          td #{data.director}
+        tr
+          td.title 国家
+          td #{data.country}
+        tr
+          td.title 语言
+          td #{data.language}
+        tr
+          td.title 上映
+          td #{data.year}
+        tr
+          td.title 简介
+          td #{data.introduce}

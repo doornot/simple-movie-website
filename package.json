@@ -1,0 +1,25 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "movie project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movie",
+    "express",
+    "mongoose"
+  ],
+  "author": "kevin wang",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.11"
+  }
+}
